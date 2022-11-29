@@ -1,6 +1,4 @@
 
-
-
     puts("Введите свое имя: ")
     name = gets.chomp()
 
@@ -16,6 +14,5 @@ def greeting (name, surname, age)
     age < 18 ? "Тебе меньше 18, но начать учиться программировать никогда не рано" : "Самое время заняться делом"
    
 end
-    
 
 puts greeting name, surname, age
