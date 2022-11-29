@@ -1,11 +1,11 @@
 
-    puts("Введите свое имя: ")
+    print("Введите свое имя: ")
     name = gets.chomp()
 
-    puts("Введите фамилию: ")
+    print("Введите фамилию: ")
     surname = gets.chomp()
 
-    puts("Введите возраст: ")
+    print("Введите возраст: ")
     age = gets.to_i()
 
 def greeting (name, surname, age)

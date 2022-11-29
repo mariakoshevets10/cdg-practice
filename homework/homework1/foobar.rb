@@ -1,17 +1,16 @@
-a = print"введите число 1: "
-a = gets.chomp().to_i
-b = print"введите число 2: "
+print"введите число 1: "
 b = gets.chomp().to_i
-def foobar(a, b)
+ print"введите число 2: "
+c = gets.chomp().to_i
+def foobar(b, c)
 
-    if a == 20
-        puts (b)
-    elsif b == 20
-        puts (a)
-            
+    if b == 20
+        puts (c)
+    elsif c == 20
+        puts (b)        
     elsif
-        puts (a+b)
+        puts (b+c)
     end
 end
 
-puts foobar a, b 
+puts foobar b, c 
